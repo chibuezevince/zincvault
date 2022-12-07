@@ -1,13 +1,12 @@
 <?php
 
-namespace App\Http\Controllers\dashboard;
+namespace App\Http\Controllers\Dashboard;
 
 use Illuminate\Http\Request;
 use App\Models\TransactionLog;
 use Illuminate\Support\Carbon;
 use App\Http\Controllers\Controller;
 use App\Mail\ExchangeAlert;
-use App\Mail\LocalTransfer;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Validator;
 
